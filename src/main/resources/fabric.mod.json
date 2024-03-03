@@ -4,25 +4,25 @@
   "version": "${version}",
 
   "name": "${name}",
-  "description": "Template for my fabric mods",
+  "description": "Backup and Restore chunk at runtime",
   "authors": [
-    "Fallen_Breath"
+    "WenDavid"
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/",
-    "sources": "https://github.com/Fallen-Breath/fabric-mod-template"
+    "sources": "https://github.com/wendavid552/HotSwappingChunks"
   },
 
-  "icon": "assets/template_mod/icon.png",
+  "icon": "assets/hot_swapping_chunks/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.fallenbreath.template_mod.TemplateMod"
+      "club.mcams.hotswappingchunks.HotSwappingChunks"
     ]
   },
   "mixins": [
-    "template_mod.mixins.json"
+    "hot_swapping_chunks.mixins.json"
   ],
 
   "depends": {
